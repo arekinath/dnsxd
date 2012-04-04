@@ -8,5 +8,5 @@ deps/
 ebin/
 .eunit/
 rel/dnsxd/
-dnsxd/logs/
-dnsxd/test/*.beam
+logs/
+test/*.beam
