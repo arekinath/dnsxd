@@ -24,14 +24,8 @@
 		     {min_length, 900},
 		     {max_llq, 500},
 		     {udp_keepalive, 29}]},
-	 {datastore_mod, dnsxd_couch},
-	 {datastore_opts, [{host, "localhost"},
-			   {port, 5984},
-			   {prefix, ""},
-			   % {options, [{basic_auth, {"username", "password"}}]},
-			   {database, "dnsxd_zones"},
-			   {init_timeout, 60000},
-			   {update_attempts, 10}
+	 {datastore_mod, none},
+	 {datastore_opts, [
 			  ]},
 	 {log_mod, dnsxd_disklog},
 	 {log_opts, []}
